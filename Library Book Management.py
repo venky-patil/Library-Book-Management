@@ -5,7 +5,7 @@ import mysql.connector as c
 from tkinter import ttk
 #Creating Costomize Window
 r=Tk()
-r.title('MyLab')
+r.title('Library Book Management')
 r.iconbitmap('studicon.ico')
 r.minsize(width=1000,height=600)
 r.eval("tk::PlaceWindow . center")
@@ -109,7 +109,7 @@ def Clear():
   
 #Adding Label in Windows
 #Window 1
-head=Label(window1,text='MyLab Books Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
+head=Label(window1,text='Library Book Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
 head.place(x=300,y=20)
 
 bn=Label(window1,text="Book Name ",bd=5,width=10,font=('times new roman',16,'bold'))
@@ -126,7 +126,7 @@ yr.place(x=200, y=310)
 
 #Window 2
 
-head=Label(window2,text='MyLab Books Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
+head=Label(window2,text='Library Book Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
 head.place(x=300,y=20)
 
 bn2=Label(window2,text="Book Name* ",bd=5,width=10,font=('times new roman',16,'bold'))
@@ -149,7 +149,7 @@ note.place(x=250,y=530)
 
 #Window 3
 
-head=Label(window3,text='MyLab Books Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
+head=Label(window3,text='Library Book Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
 head.place(x=300,y=20)
 
 bn3=Label(window3,text="Book Name ",bd=5,width=10,font=('times new roman',16,'bold'))
@@ -193,7 +193,7 @@ bn3.place(x=350, y=100)
 
 #Window 4
 
-head=Label(window4,text='MyLab Books Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
+head=Label(window4,text='Library Book Management',relief='ridge',bd=10,font=('times new roman',20,'bold'))
 head.place(x=300,y=20)
 
 viewing=Text(window4,width=75,height=22)
@@ -205,13 +205,13 @@ viewing.config(state='disabled')
 #Adding Button
 button=Button(window1,text="Insert",width=20,bg='white',command=InsertData,font=('times new roman',14,'bold'))
 button.pack()
-button.place(x=290,y=400)
+button.place(x=400,y=400)
 button=Button(window2,text="Update",width=20,bg='white',command=Check,font=('times new roman',14,'bold'))
 button.pack()
-button.place(x=290,y=450)
+button.place(x=400,y=450)
 button=Button(window3,text="Delete",width=20,bg='red',command=Delete,font=('times new roman',14,'bold'))
 button.pack()
-button.place(x=290,y=250)
+button.place(x=400,y=250)
 button=Button(window4,text="View All",width=20,bg="pink",command=View,font=('times new roman',14,'bold'))
 button.pack()
 button.place(x=250,y=500)
