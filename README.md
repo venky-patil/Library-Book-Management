@@ -12,7 +12,7 @@ Add, Update, Delete And View Book Details like Book Name, Author Name, Publicati
 ### MySQL
 - Create Database
 	
-	Craete database name as `Books`
+	Craete database name as `Database`
 	
 - Create Table
 	
