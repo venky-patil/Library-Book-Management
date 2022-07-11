@@ -22,7 +22,7 @@ tab.pack(expand = 1,fill='both')
 
 #Connect to MySQL
 def CreateConn():
-    return c.connect(user='root',passwd='12345',host='localhost',database='database')
+    return c.connect(user='root',passwd='12345',host='localhost',database='venkydb')
 
 #Insert data
 def InsertData():

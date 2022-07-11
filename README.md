@@ -16,7 +16,7 @@ Add, Update, Delete And View Book Details like Book Name, Author Name, Publicati
 	
 - Create Table
 	
-	Create table with name as `Book Details` and descripton of table with this query `'create table if not exists Book_Details(Book_Name varchar(255) primary key,Author_Name varchar(50),Publication varchar(50),Year integer(10))`
+	Create table with name as `Book Details` and descripton of table with this `query = 'create table if not exists Book_Details(Book_Name varchar(255) primary key,Author_Name varchar(50),Publication varchar(50),Year integer(10))`
 
 ## Images
 ### Insert Before
